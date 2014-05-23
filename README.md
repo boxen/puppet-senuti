@@ -1,11 +1,13 @@
-# Senuti Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-senuti.png)](https://travis-ci.org/boxen/puppet-senuti)
+# Senuti Puppet Module for Boxen
+
+[![Build Status](https://travis-ci.org/boxen/puppet-senuti.svg)](https://travis-ci.org/boxen/puppet-senuti)
 
 Install [Senuti](https://www.fadingred.com/senuti/), a utility for recovering music, playlists, or videos from your iPhone or iPod.
 
 ## Usage
 
 ```puppet
-class { 'senuti': }
+class senuti
 ```
 
 ## Required Puppet Modules
