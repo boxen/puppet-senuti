@@ -1,11 +1,11 @@
-# Fluid Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-fluid.png)](https://travis-ci.org/boxen/puppet-fluid)
+# Senuti Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-senuti.png)](https://travis-ci.org/boxen/puppet-senuti)
 
-Install [Fluid](http://www.fluidapp.com/), a tool that lets you create a Real Mac App (or "Fluid App") out of any website or web application, effectively turning your favorite web apps into OS X desktop apps.
+Install [Senuti](https://www.fadingred.com/senuti/), a utility for recovering music, playlists, or videos from your iPhone or iPod.
 
 ## Usage
 
 ```puppet
-include fluid
+class { 'senuti': }
 ```
 
 ## Required Puppet Modules
